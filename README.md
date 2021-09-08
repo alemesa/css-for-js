@@ -3,3 +3,5 @@
 https://css-for-js.dev/ Course Solutions
 
 Workshop 1 - Flow Layout (padding, margin, border) only
+
+Workshop 2 - Positioning and stacked elements
