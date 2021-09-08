@@ -3,11 +3,9 @@
   padding-bottom: 64px;
 }
 
-.maxWidthWrapper {
-}
-
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +22,29 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  top: 128px;
+  right: calc((100vw - 1024px) / 2);
+  width: calc(1024px * 0.35);
+  height: auto;
+  min-height: 500px;
 }
 
 .controlColumn {
+  width: 50%;
+  position: relative; /* Without z-index */
+}
+
+.perspectiveBg {
+  position: fixed;
+  width: 100%;
+  height: 40vh;
+  bottom: 0;
+  left: 0;
+  background-color: hsl(195deg, 20%, 86%);
+  width: 100%;
+  /* Challenge with z-index */
+  /* z-index: -1;  */
+
+  /* Challenge without  z-index is above */
 }

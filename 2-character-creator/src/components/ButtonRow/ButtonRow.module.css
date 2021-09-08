@@ -1,2 +1,14 @@
 .buttonRow {
+  overflow: auto;
+  padding: 24px;
+  padding-top: 0;
+  white-space: nowrap;
 }
+
+/* .buttonRow {
+  display: flex;
+}
+
+.buttonRow > * {
+  flex: 0 0 auto;
+} */
